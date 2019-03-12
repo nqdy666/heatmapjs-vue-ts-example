@@ -1,5 +1,5 @@
 {
-  "name": "ts-vue-project",
+  "name": "heatmap-ts-example",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "heatmapjs-vue": "0.0.4",
     "vue": "^2.6.6",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^7.0.0",
