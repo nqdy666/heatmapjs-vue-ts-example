@@ -6,7 +6,7 @@
       :data="data"
       :click-drawable="clickDrawable"
       :move-drawable="moveDrawable"
-      :draw-value="5"
+      :draw-value="10"
       @change="handleChange"></heatmapjs-vue>
     <div class="btn-wrapper">
       <button @click="handleBtnClick">调用getData方法</button>
@@ -40,7 +40,7 @@ export default class Heatmap extends Vue {
 <style scoped>
 .heatmapjs-container {
   width: 100%;
-  height: 500px;
+  height: 300px;
   background-color: ghostwhite;
 }
 .btn-wrapper {
