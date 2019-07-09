@@ -30,6 +30,7 @@ export default class Heatmap extends Vue {
   private handleBtnClick(): void {
     const res = this.$refs.ht.getData();
     console.log(res);
+    alert('调用成功，请打开控制台查看结果');
   }
 
   private handleChange(val: object[]) {
